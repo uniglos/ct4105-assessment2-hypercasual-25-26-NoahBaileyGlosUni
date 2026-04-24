@@ -124,7 +124,7 @@ Material:
     - _DistortionStrengthScaled: 0
     - _DstBlend: 0
     - _EmissionEnabled: 0
-    - _Exposure: 1
+    - _Exposure: 2.99
     - _FlipbookMode: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -138,7 +138,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 0
+    - _Rotation: 360
     - _Shininess: 0.2
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
@@ -167,6 +167,6 @@ Material:
     - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _Tint: {r: 0.3193956, g: 0.4433962, b: 0.2488875, a: 1}
+    - _Tint: {r: 0.5400631, g: 0.6698113, b: 0.5276344, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
