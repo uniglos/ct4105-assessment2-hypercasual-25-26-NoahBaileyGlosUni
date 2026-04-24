@@ -411,6 +411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301233855}
   - component: {fileID: 301233854}
+  - component: {fileID: 301233857}
   - component: {fileID: 301233856}
   m_Layer: 0
   m_Name: Generator
@@ -467,14 +468,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301233853}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.821881, y: 111.04354, z: -194.44122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1791994405}
   - {fileID: 1450386292}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 672991359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &301233856
 MonoBehaviour:
@@ -503,6 +504,47 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &301233857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301233853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9799b911b24b18c4889c80720ee02e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTimeBeforeStart: 0
+  regularIntervalTime: 0
+  TimerStart:
+    m_PersistentCalls:
+      m_Calls: []
+  WhileTimer:
+    m_PersistentCalls:
+      m_Calls: []
+  TimerComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  RegularTimeIntervalEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 301233854}
+        m_TargetAssemblyTypeName: GenerateInArea, Assembly-CSharp
+        m_MethodName: RandomSpawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  whileTimerPercentComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &366755071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -715,6 +757,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1473007634}
+  - {fileID: 301233855}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450386291
@@ -1535,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &1791994402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1654,19 +1697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onDestroy:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 301233854}
-        m_TargetAssemblyTypeName: GenerateInArea, Assembly-CSharp
-        m_MethodName: RandomSpawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onDestroyObjectPassSelf:
     m_PersistentCalls:
       m_Calls:
@@ -1675,7 +1706,7 @@ MonoBehaviour:
         m_MethodName: RemoveItemFromList
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1791994401}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1829,6 +1860,5 @@ SceneRoots:
   - {fileID: 1747533132}
   - {fileID: 1790821160}
   - {fileID: 672991359}
-  - {fileID: 301233855}
   - {fileID: 1777670858}
   - {fileID: 670664151}
