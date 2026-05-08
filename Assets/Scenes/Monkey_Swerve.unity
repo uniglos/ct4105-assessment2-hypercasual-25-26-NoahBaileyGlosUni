@@ -1836,7 +1836,7 @@ GameObject:
   - component: {fileID: 108402370}
   m_Layer: 0
   m_Name: Gem-Red (4)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2047,6 +2047,232 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e6b39aac04306746a8ac71c91f17644, type: 3}
   m_PrefabInstance: {fileID: 112282759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &141594076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141594077}
+  - component: {fileID: 141594080}
+  - component: {fileID: 141594079}
+  - component: {fileID: 141594078}
+  m_Layer: 5
+  m_Name: Text(Red)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &141594077
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141594076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1210459614955553821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 150, y: -210}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &141594078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141594076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efc4ef6379f74d4b9f7ae333efca6ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  format: 
+--- !u!114 &141594079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141594076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282538751
+  m_fontColor: {r: 1, g: 0.35152924, b: 0.2588235, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 80
+  m_fontSizeBase: 80
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &141594080
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141594076}
+  m_CullTransparentMesh: 1
+--- !u!1 &146300051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146300053}
+  - component: {fileID: 146300052}
+  m_Layer: 0
+  m_Name: Score Manager Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &146300052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146300051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf524497ea720b342951d510d4baac53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreWinNumber: 100
+  lowestScore: 0
+  startingScore: 0
+  clampUpperScore: 0
+  clampLowerScore: 1
+  onScoreGain:
+    m_PersistentCalls:
+      m_Calls: []
+  onScoreLoss:
+    m_PersistentCalls:
+      m_Calls: []
+  onScoreWinNumber:
+    m_PersistentCalls:
+      m_Calls: []
+  onScoreZero:
+    m_PersistentCalls:
+      m_Calls: []
+  updateScoreUI:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 141594078}
+        m_TargetAssemblyTypeName: UpdateText, Assembly-CSharp
+        m_MethodName: UpdateTextint
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &146300053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146300051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 616.61896, y: 1016.95996, z: -53.435146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &183318630
 Mesh:
   m_ObjectHideFlags: 0
@@ -4488,7 +4714,7 @@ GameObject:
   - component: {fileID: 615947486}
   m_Layer: 0
   m_Name: Gem-Red (5)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5053,7 +5279,7 @@ GameObject:
   - component: {fileID: 733021209}
   m_Layer: 0
   m_Name: Gem-Red (2)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5419,7 +5645,7 @@ GameObject:
   - component: {fileID: 848027839}
   m_Layer: 0
   m_Name: Gem-Red (7)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5531,6 +5757,7 @@ GameObject:
   - component: {fileID: 849832627}
   - component: {fileID: 849832626}
   - component: {fileID: 849832632}
+  - component: {fileID: 849832633}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -5725,6 +5952,53 @@ MonoBehaviour:
       m_Calls: []
   Tags:
   - Coins
+--- !u!114 &849832633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849832625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f87fd9a6363e2743bc0b82a5d90afa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 146300052}
+        m_TargetAssemblyTypeName: ScoreSystem, Assembly-CSharp
+        m_MethodName: AdjustPoints
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1822330575}
+        m_TargetAssemblyTypeName: DisableObj, Assembly-CSharp
+        m_MethodName: Disable
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  CollisionStay:
+    m_PersistentCalls:
+      m_Calls: []
+  CollisionExit:
+    m_PersistentCalls:
+      m_Calls: []
+  Tags:
+  - Coins2
 --- !u!1 &865690889
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,7 +6507,7 @@ GameObject:
   - component: {fileID: 1004925713}
   m_Layer: 0
   m_Name: Gem-Red (3)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7489,7 +7763,7 @@ GameObject:
   - component: {fileID: 1342316961}
   m_Layer: 0
   m_Name: Gem-Red (6)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9026,7 +9300,7 @@ GameObject:
   - component: {fileID: 1408546995}
   m_Layer: 0
   m_Name: Gem-Red (8)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9369,7 +9643,7 @@ GameObject:
   - component: {fileID: 1523315156}
   m_Layer: 0
   m_Name: Gem-Red (1)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9860,7 +10134,7 @@ GameObject:
   - component: {fileID: 1735621278}
   - component: {fileID: 1735621277}
   m_Layer: 0
-  m_Name: Score Manager
+  m_Name: Score Manager Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12598,7 +12872,7 @@ GameObject:
   - component: {fileID: 1969290326}
   m_Layer: 0
   m_Name: Gem-Red (9)
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13054,7 +13328,7 @@ GameObject:
   - component: {fileID: 4565033136126187246}
   - component: {fileID: 8377631064462569086}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text(Blue)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13081,6 +13355,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1550100598587600402}
+  - {fileID: 141594077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13104,7 +13379,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -210}
+  m_AnchoredPosition: {x: -150, y: -210}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &2051708759664030162
@@ -13201,8 +13476,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294953472
+  m_fontColor: {r: 0, g: 0.79024625, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13296,7 +13571,7 @@ GameObject:
   - component: {fileID: 8693167867724808066}
   m_Layer: 0
   m_Name: Gem-Red
-  m_TagString: Coins
+  m_TagString: Coins2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13523,6 +13798,7 @@ SceneRoots:
   - {fileID: 1210459614955553821}
   - {fileID: 826718525}
   - {fileID: 1735621278}
+  - {fileID: 146300053}
   - {fileID: 1009778145}
   - {fileID: 1635719202}
   - {fileID: 1822330572}
